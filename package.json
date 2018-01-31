@@ -1,0 +1,35 @@
+{
+  "name": "mall-font",
+  "version": "1.0.0",
+  "description": "mall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8089",
+    "dev_win":"set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8089",
+    "dist":"WEBPACK_ENV=online webpack -p",
+    "dist_win":"set WEBPACK_ENV=online &&  webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwy126/mall-font.git"
+  },
+  "author": "kewy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwy126/mall-font/issues"
+  },
+  "homepage": "https://github.com/kwy126/mall-font#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
