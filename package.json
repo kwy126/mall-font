@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8089",
-    "dev_win":"set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8089",
-    "dist":"WEBPACK_ENV=online webpack -p",
-    "dist_win":"set WEBPACK_ENV=online &&  webpack -p"
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8089",
+    "dist": "WEBPACK_ENV=online webpack -p",
+    "dist_win": "set WEBPACK_ENV=online &&  webpack -p"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "css-loader": "^0.28.8",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^1.1.6",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.19.1",
@@ -30,6 +31,8 @@
     "webpack-dev-server": "^1.16.5"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2",
     "jquery": "^3.2.1"
   }
 }

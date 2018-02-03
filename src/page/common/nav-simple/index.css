@@ -1,0 +1,19 @@
+/*
+* @Author: kwy126
+* @Date:   2018-02-03 11:18:57
+* @Last Modified by:   kwy126
+* @Last Modified time: 2018-02-03 11:24:25
+*/
+
+ .nav-simple{
+ 	height: 60px;
+ 	line-height: 60px;
+ 	border-bottom: 1px solid #ddd;
+ 	background: #fff;
+ }
+
+ .nav-simple .logo{
+ 	font-size:26px;
+ 	font-weight: bold;
+ 	color:#c60023;
+ }
